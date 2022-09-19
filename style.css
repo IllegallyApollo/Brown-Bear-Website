@@ -1,0 +1,42 @@
+
+h1, h2, h3, p {
+    text-align: center;
+    color: gainsboro;
+}
+
+h1 {
+    font-family: 'Amiri Quran', serif;
+    color: azure;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 4px 4px #282828;
+}
+
+div:not(.list) {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px;
+    border-style: dotted;
+    border-color: rgba(0, 0, 0, 0.5);
+    }
+
+.list {
+    justify-content: center;
+    display: flex;
+    color: gainsboro;
+    }
+
+#media {
+    text-align: center;
+    display: block;
+}
+
+body {
+    background-image: url(assets/th.webp);
+    font-family: 'Roboto', sans-serif;
+}
+
+img, video {
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+}
