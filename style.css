@@ -4,39 +4,42 @@ h1, h2, h3, p {
 }
 
 h1 {
-    position: fixed;
     font-family: 'Amiri Quran', serif;
-    color: azure;
+    color: rgb(78, 150, 78);
     font-size: 50px;
     -webkit-text-stroke: 1px black;
     text-shadow: 0px 4px 4px #282828;
+    background-color: rgb(214, 243, 210);
 }
 
 div:not(.list) {
     height: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 2px;
-    border-style: dotted;
-    border-color: rgba(0, 0, 0, 0.5);
-    }
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px dotted rgba(0, 0, 0, 0.5);
+}
 
 .list {
     justify-content: center;
     display: flex;
     color: gainsboro;
-    }
+}
 
 #media {
     text-align: center;
     display: block;
 }
 
-body {
+#content{
     background-image: url(assets/th.webp);
     font-family: 'Roboto', sans-serif;
 }
 
-img, video {
+body {
+    background-color: rgb(18, 43, 18);
+}
+
+img, video, h1 {
     border-radius: 10px;
     border: 2px solid whitesmoke;
+    
 }
