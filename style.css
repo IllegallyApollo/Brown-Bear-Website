@@ -1,10 +1,10 @@
-
 h1, h2, h3, p {
     text-align: center;
     color: gainsboro;
 }
 
 h1 {
+    position: fixed;
     font-family: 'Amiri Quran', serif;
     color: azure;
     font-size: 50px;
